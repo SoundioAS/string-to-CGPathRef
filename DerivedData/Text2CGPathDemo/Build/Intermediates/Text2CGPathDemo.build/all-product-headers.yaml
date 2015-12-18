@@ -8,6 +8,11 @@
       'contents': [
         {
           'type': 'file',
+          'name': "ARCGPathFromString.h",
+          'external-contents': "/Users/johan/Dropbox/Drive/Vibble/code/testtest/string-to-CGPathRef/ARCGPathFromString/ARCGPathFromString.h"
+        },
+        {
+          'type': 'file',
           'name': "Text2CGPath-Swift.h",
           'external-contents': "/Users/johan/Dropbox/Drive/Vibble/code/testtest/string-to-CGPathRef/DerivedData/Text2CGPathDemo/Build/Products/Debug-iphonesimulator/Text2CGPath.framework/Headers/Text2CGPath-Swift.h"
         },
@@ -15,6 +20,11 @@
           'type': 'file',
           'name': "Text2CGPath.h",
           'external-contents': "/Users/johan/Dropbox/Drive/Vibble/code/testtest/string-to-CGPathRef/Text2CGPath/Text2CGPath.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIBezierPath+TextPaths.h",
+          'external-contents': "/Users/johan/Dropbox/Drive/Vibble/code/testtest/string-to-CGPathRef/ARCGPathFromString/UIBezierPath+TextPaths.h"
         }
       ]
     },
