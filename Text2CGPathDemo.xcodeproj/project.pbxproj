@@ -17,6 +17,8 @@
 		04F2EFC81C2434E9003FDB3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6840F4166E773D001E7689 /* UIKit.framework */; };
 		04F2EFC91C2434F1003FDB3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6840F8166E773D001E7689 /* CoreGraphics.framework */; };
 		04F2EFCA1C2434FB003FDB3B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB684117166E87B3001E7689 /* QuartzCore.framework */; };
+		04F2EFCD1C2436AB003FDB3B /* UIBezierPath+TextPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = AB684119166E89E0001E7689 /* UIBezierPath+TextPaths.h */; };
+		04F2EFCE1C2436AF003FDB3B /* ARCGPathFromString.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBC8C8319952C34008F3153 /* ARCGPathFromString.h */; };
 		AB6840F5166E773D001E7689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6840F4166E773D001E7689 /* UIKit.framework */; };
 		AB6840F7166E773D001E7689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6840F6166E773D001E7689 /* Foundation.framework */; };
 		AB6840F9166E773D001E7689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6840F8166E773D001E7689 /* CoreGraphics.framework */; };
@@ -201,6 +203,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04F2EFCE1C2436AF003FDB3B /* ARCGPathFromString.h in Headers */,
+				04F2EFCD1C2436AB003FDB3B /* UIBezierPath+TextPaths.h in Headers */,
 				04F2EFBA1C243441003FDB3B /* Text2CGPath.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
