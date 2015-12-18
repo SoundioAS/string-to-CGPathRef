@@ -1,0 +1,6 @@
+framework module Text2CGPath {
+  umbrella header "Text2CGPath.h"
+
+  export *
+  module * { export * }
+}

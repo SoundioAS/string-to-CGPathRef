@@ -1,0 +1,1 @@
+ const unsigned char Text2CGPathVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Text2CGPath  PROJECT:Text2CGPathDemo-1" "\n"; const double Text2CGPathVersionNumber __attribute__ ((used)) = (double)1.;

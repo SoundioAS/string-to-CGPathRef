@@ -21,6 +21,7 @@
 //
 
 #import "ARCGPathFromString.h"
+#import <UIKit/UIKit.h>
 
 #pragma mark Single Line String Path
 

@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/johan/Dropbox/Drive/Vibble/code/testtest/string-to-CGPathRef/DerivedData/Text2CGPathDemo/Build/Products/Debug-iphonesimulator/Text2CGPath.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Text2CGPath-Swift.h",
+          'external-contents': "/Users/johan/Dropbox/Drive/Vibble/code/testtest/string-to-CGPathRef/DerivedData/Text2CGPathDemo/Build/Products/Debug-iphonesimulator/Text2CGPath.framework/Headers/Text2CGPath-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Text2CGPath.h",
+          'external-contents': "/Users/johan/Dropbox/Drive/Vibble/code/testtest/string-to-CGPathRef/Text2CGPath/Text2CGPath.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/johan/Dropbox/Drive/Vibble/code/testtest/string-to-CGPathRef/DerivedData/Text2CGPathDemo/Build/Products/Debug-iphonesimulator/Text2CGPath.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/johan/Dropbox/Drive/Vibble/code/testtest/string-to-CGPathRef/DerivedData/Text2CGPathDemo/Build/Intermediates/Text2CGPathDemo.build/Debug-iphonesimulator/Text2CGPath.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
