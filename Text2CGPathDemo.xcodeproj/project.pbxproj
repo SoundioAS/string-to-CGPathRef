@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04F2EFBA1C243441003FDB3B /* Text2CGPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 04F2EFB91C243441003FDB3B /* Text2CGPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04F2EFBE1C243441003FDB3B /* Text2CGPath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2EFB71C243441003FDB3B /* Text2CGPath.framework */; };
+		04F2EFBF1C243441003FDB3B /* Text2CGPath.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04F2EFB71C243441003FDB3B /* Text2CGPath.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		04F2EFC41C24346A003FDB3B /* UIBezierPath+TextPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = AB68411A166E89E0001E7689 /* UIBezierPath+TextPaths.m */; };
+		04F2EFC51C24346C003FDB3B /* ARCGPathFromString.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBC8C8419952C34008F3153 /* ARCGPathFromString.m */; };
+		04F2EFC61C2434D9003FDB3B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB68411C166E90D2001E7689 /* CoreText.framework */; };
+		04F2EFC71C2434DD003FDB3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6840F6166E773D001E7689 /* Foundation.framework */; };
+		04F2EFC81C2434E9003FDB3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6840F4166E773D001E7689 /* UIKit.framework */; };
+		04F2EFC91C2434F1003FDB3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6840F8166E773D001E7689 /* CoreGraphics.framework */; };
+		04F2EFCA1C2434FB003FDB3B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB684117166E87B3001E7689 /* QuartzCore.framework */; };
+		04F2EFCD1C2436AB003FDB3B /* UIBezierPath+TextPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = AB684119166E89E0001E7689 /* UIBezierPath+TextPaths.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04F2EFCE1C2436AF003FDB3B /* ARCGPathFromString.h in Headers */ = {isa = PBXBuildFile; fileRef = ABBC8C8319952C34008F3153 /* ARCGPathFromString.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AB6840F5166E773D001E7689 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6840F4166E773D001E7689 /* UIKit.framework */; };
 		AB6840F7166E773D001E7689 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6840F6166E773D001E7689 /* Foundation.framework */; };
 		AB6840F9166E773D001E7689 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6840F8166E773D001E7689 /* CoreGraphics.framework */; };
@@ -24,7 +36,34 @@
 		ABBC8C8519952C34008F3153 /* ARCGPathFromString.m in Sources */ = {isa = PBXBuildFile; fileRef = ABBC8C8419952C34008F3153 /* ARCGPathFromString.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		04F2EFBC1C243441003FDB3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6840E7166E773D001E7689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F2EFB61C243441003FDB3B;
+			remoteInfo = Text2CGPath;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04F2EFC31C243441003FDB3B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				04F2EFBF1C243441003FDB3B /* Text2CGPath.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		04F2EFB71C243441003FDB3B /* Text2CGPath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Text2CGPath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F2EFB91C243441003FDB3B /* Text2CGPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Text2CGPath.h; sourceTree = "<group>"; };
+		04F2EFBB1C243441003FDB3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB6840F0166E773D001E7689 /* Text2CGPathDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Text2CGPathDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6840F4166E773D001E7689 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AB6840F6166E773D001E7689 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,11 +89,24 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04F2EFB31C243441003FDB3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F2EFCA1C2434FB003FDB3B /* QuartzCore.framework in Frameworks */,
+				04F2EFC91C2434F1003FDB3B /* CoreGraphics.framework in Frameworks */,
+				04F2EFC81C2434E9003FDB3B /* UIKit.framework in Frameworks */,
+				04F2EFC71C2434DD003FDB3B /* Foundation.framework in Frameworks */,
+				04F2EFC61C2434D9003FDB3B /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB6840ED166E773D001E7689 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AB68411D166E90D2001E7689 /* CoreText.framework in Frameworks */,
+				04F2EFBE1C243441003FDB3B /* Text2CGPath.framework in Frameworks */,
 				AB684118166E87B3001E7689 /* QuartzCore.framework in Frameworks */,
 				AB6840F5166E773D001E7689 /* UIKit.framework in Frameworks */,
 				AB6840F7166E773D001E7689 /* Foundation.framework in Frameworks */,
@@ -65,11 +117,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04F2EFB81C243441003FDB3B /* Text2CGPath */ = {
+			isa = PBXGroup;
+			children = (
+				04F2EFB91C243441003FDB3B /* Text2CGPath.h */,
+				04F2EFBB1C243441003FDB3B /* Info.plist */,
+			);
+			path = Text2CGPath;
+			sourceTree = "<group>";
+		};
 		AB6840E5166E773C001E7689 = {
 			isa = PBXGroup;
 			children = (
 				ABBC8C8219952BC7008F3153 /* ARCGPathFromString */,
 				AB6840FA166E773D001E7689 /* Text2CGPathDemo */,
+				04F2EFB81C243441003FDB3B /* Text2CGPath */,
 				AB6840F3166E773D001E7689 /* Frameworks */,
 				AB6840F1166E773D001E7689 /* Products */,
 			);
@@ -79,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				AB6840F0166E773D001E7689 /* Text2CGPathDemo.app */,
+				04F2EFB71C243441003FDB3B /* Text2CGPath.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,7 +198,38 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		04F2EFB41C243441003FDB3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F2EFCE1C2436AF003FDB3B /* ARCGPathFromString.h in Headers */,
+				04F2EFCD1C2436AB003FDB3B /* UIBezierPath+TextPaths.h in Headers */,
+				04F2EFBA1C243441003FDB3B /* Text2CGPath.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		04F2EFB61C243441003FDB3B /* Text2CGPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F2EFC01C243441003FDB3B /* Build configuration list for PBXNativeTarget "Text2CGPath" */;
+			buildPhases = (
+				04F2EFB21C243441003FDB3B /* Sources */,
+				04F2EFB31C243441003FDB3B /* Frameworks */,
+				04F2EFB41C243441003FDB3B /* Headers */,
+				04F2EFB51C243441003FDB3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Text2CGPath;
+			productName = Text2CGPath;
+			productReference = 04F2EFB71C243441003FDB3B /* Text2CGPath.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		AB6840EF166E773D001E7689 /* Text2CGPathDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB684114166E773D001E7689 /* Build configuration list for PBXNativeTarget "Text2CGPathDemo" */;
@@ -143,10 +237,12 @@
 				AB6840EC166E773D001E7689 /* Sources */,
 				AB6840ED166E773D001E7689 /* Frameworks */,
 				AB6840EE166E773D001E7689 /* Resources */,
+				04F2EFC31C243441003FDB3B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04F2EFBD1C243441003FDB3B /* PBXTargetDependency */,
 			);
 			name = Text2CGPathDemo;
 			productName = Text2CGPathDemo;
@@ -162,6 +258,11 @@
 				CLASSPREFIX = AR;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Adrian Russell";
+				TargetAttributes = {
+					04F2EFB61C243441003FDB3B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
 			};
 			buildConfigurationList = AB6840EA166E773D001E7689 /* Build configuration list for PBXProject "Text2CGPathDemo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -176,11 +277,19 @@
 			projectRoot = "";
 			targets = (
 				AB6840EF166E773D001E7689 /* Text2CGPathDemo */,
+				04F2EFB61C243441003FDB3B /* Text2CGPath */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		04F2EFB51C243441003FDB3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB6840EE166E773D001E7689 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -196,6 +305,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		04F2EFB21C243441003FDB3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F2EFC51C24346C003FDB3B /* ARCGPathFromString.m in Sources */,
+				04F2EFC41C24346A003FDB3B /* UIBezierPath+TextPaths.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AB6840EC166E773D001E7689 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +327,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F2EFBD1C243441003FDB3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F2EFB61C243441003FDB3B /* Text2CGPath */;
+			targetProxy = 04F2EFBC1C243441003FDB3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		AB6840FD166E773D001E7689 /* InfoPlist.strings */ = {
@@ -230,6 +356,85 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		04F2EFC11C243441003FDB3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Text2CGPath/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundio.Text2CGPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04F2EFC21C243441003FDB3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = Text2CGPath/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.soundio.Text2CGPath;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		AB684112166E773D001E7689 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -252,7 +457,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -274,7 +479,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -288,8 +493,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Text2CGPathDemo/Text2CGPathDemo-Prefix.pch";
 				INFOPLIST_FILE = "Text2CGPathDemo/Text2CGPathDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -300,8 +507,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Text2CGPathDemo/Text2CGPathDemo-Prefix.pch";
 				INFOPLIST_FILE = "Text2CGPathDemo/Text2CGPathDemo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -309,6 +518,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04F2EFC01C243441003FDB3B /* Build configuration list for PBXNativeTarget "Text2CGPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F2EFC11C243441003FDB3B /* Debug */,
+				04F2EFC21C243441003FDB3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		AB6840EA166E773D001E7689 /* Build configuration list for PBXProject "Text2CGPathDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
